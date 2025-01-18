@@ -7,8 +7,10 @@
         "label": "Software Engineer",
         "email": "rahul.kachiappan@gmail.com",
         "phone": "+91 7530016269",
+        "summary": "I am a curious Engineer with a wide array of interests. I am now focusing on attaining mastery over Backend Engineering and its related ecosystem. I have proficiency in Backend Engineering, Django, Python ecosystem, Linux ecosystem, AWS, Azure, Generative AI, MLOps and Natural Language Processing. Strong proponent of FOSS principles and enjoy collaboration with open source communities. I have made significant contributions to FastAPI, DSPy from Stanford NLP, Chroma DB, Langchain, Llamaindex and ragas.",
         "location": {
             "city": "Chennai",
+            "region": "Tamil Nadu",
             "countryCode": "IN"
         },
         "profiles": [
