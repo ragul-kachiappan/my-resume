@@ -1,220 +1,219 @@
 {
-    "meta": {
-        "theme": "professional"
+  "meta": {
+    "theme": "professional"
+  },
+  "basics": {
+    "name": "Ragul Kachiyappan",
+    "label": "Software Engineer",
+    "email": "rahul.kachiappan@gmail.com",
+    "phone": "+91 7530016269",
+    "summary": "I am a curious Engineer with a wide array of interests. I am now focusing on attaining mastery over Backend Engineering and its related ecosystem. I have proficiency in Backend Engineering, Django, Python ecosystem, Linux ecosystem, AWS, Azure, Generative AI, MLOps and Natural Language Processing. Strong proponent of FOSS principles and enjoy collaboration with open source communities. I have made significant contributions to FastAPI, DSPy from Stanford NLP, Chroma DB, Langchain, Llamaindex and ragas.",
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "countryCode": "IN"
     },
-    "basics": {
-        "name": "Ragul Kachiyappan",
-        "label": "Software Engineer",
-        "email": "rahul.kachiappan@gmail.com",
-        "phone": "+91 7530016269",
-        "summary": "I am a curious Engineer with a wide array of interests. I am now focusing on attaining mastery over Backend Engineering and its related ecosystem. I have proficiency in Backend Engineering, Django, Python ecosystem, Linux ecosystem, AWS, Azure, Generative AI, MLOps and Natural Language Processing. Strong proponent of FOSS principles and enjoy collaboration with open source communities. I have made significant contributions to FastAPI, DSPy from Stanford NLP, Chroma DB, Langchain, Llamaindex and ragas.",
-        "location": {
-            "city": "Chennai",
-            "region": "Tamil Nadu",
-            "countryCode": "IN"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "url": "https://www.linkedin.com/in/ragul-kachiappan/",
-                "username": "ragul"
-            },
-            {
-                "network": "GitHub",
-                "url": "https://github.com/ragul-kachiappan",
-                "username": "ragul"
-            },
-            {
-                "network": "HackerRank",
-                "url": "https://www.hackerrank.com/rahul_kachiappan",
-                "username": "ragul"
-            }
-        ]
-    },
-    "education": [
-        {
-            "institution": "PSG College of Technology",
-            "area": "Electronics and Communication Engineering",
-            "studyType": "Bachelor of Engineering",
-            "startDate": "2017-08-01",
-            "endDate": "2022-05-01",
-            "score": "9.24 CGPA",
-            "location": "Coimbatore, India"
-        },
-        {
-            "institution": "Jawahar Higher Secondary School",
-            "area": "Senior School Certificate (CBSE)",
-            "studyType": "Class XII",
-            "startDate": "2016-06-01",
-            "endDate": "2017-03-01",
-            "score": "90.7%",
-            "location": "Neyveli, India"
-        },
-        {
-            "institution": "Jawahar Higher Secondary School",
-            "area": "Secondary School Certificate (CBSE)",
-            "studyType": "Class X",
-            "startDate": "2014-06-01",
-            "endDate": "2015-03-01",
-            "score": "9.0 CGPA",
-            "location": "Neyveli, India"
-        }
-    ],
-    "work": [
-        {
-            "name": "Techjays",
-            "position": "Software Engineer II",
-            "location": "Coimbatore, India",
-            "startDate": "2024-04-01",
-            "highlights": [
-                "Received early promotion for dedicated efforts and proactive responsibilities",
-                "Led MVP effort on Gen AI, LLM based chatbot for US-based welding alloy products company",
-                "Architected solutions with S3, Glue, Athena and Airflow for big data processing",
-                "Skilled in Docker, Kubernetes, ECR, EKS techstack",
-                "Contributing to MLOps on time-series data analytics in Arkose Labs",
-                "Open-source contributions to LLM libraries like Chromadb, LangChain, Llamaindex and Ragas",
-                "Making efforts to build a Web Server from scratch"
-            ]
-        },
-        {
-            "name": "Techjays",
-            "position": "Software Engineer I",
-            "location": "Coimbatore, India",
-            "startDate": "2023-05-01",
-            "endDate": "2024-03-31",
-            "highlights": [
-                "Backend, MLOps, LLMOps, Generative AI Engineer",
-                "Made open-source contributions to Stanford University's DSPy and FastAPI",
-                "Worked directly with CTO as GenAI consultant",
-                "Mentored new joinees and created internal onboarding mock project",
-                "Skilled in LLMs, Prompt Engineering, RAG and Vector Databases",
-                "Served on interview panel for hiring Senior Engineers and interns",
-                "Contributed to MLOps, NLP tasks for Gamesafe project"
-            ]
-        },
-        {
-            "name": "Techjays",
-            "position": "Python Developer Trainee",
-            "location": "Coimbatore, India",
-            "startDate": "2023-03-01",
-            "endDate": "2023-04-30",
-            "highlights": [
-                "Backend development with Django, Django REST Framework",
-                "Contributed to Whatsapp Business Automated Team Inbox development"
-            ]
-        },
-        {
-            "name": "Techjays",
-            "position": "Python Developer Intern",
-            "location": "Coimbatore, India",
-            "startDate": "2022-12-01",
-            "endDate": "2023-02-28",
-            "highlights": [
-                "Training in Backend development with focus on Django, Rest API"
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "name": "Arkose Labs",
-            "description": "ML workflow automation project",
-            "startDate": "2024-08-01",
-            "highlights": [
-                "Lead developer collaborating with Data Science team",
-                "AWS infrastructure setup with terraform",
-                "Implemented workflows with Airflow, Athena, Glue and S3",
-                "Web portal deployment through EKS, ECR and ArgoCD"
-            ]
-        },
-        {
-            "name": "Midalloy",
-            "description": "RAG-based welding chatbot",
-            "startDate": "2024-04-01",
-            "endDate": "2024-10-31",
-            "highlights": [
-                "Lead developer for RAG-based QA chatbot",
-                "Azure infrastructure setup and technical discussions",
-                "Team management and stakeholder communication"
-            ]
-        },
-        {
-            "name": "Gamesafe",
-            "description": "Child protection app for online gaming",
-            "startDate": "2023-10-01",
-            "endDate": "2024-04-30",
-            "highlights": [
-                "MLOps/ML engineer for child protection app",
-                "Implemented mobile-compatible image classifiers",
-                "Managed GCP colab enterprise configurations"
-            ]
-        },
-        {
-            "name": "Via Analytics",
-            "description": "Analytical GenAI QA chatbot",
-            "startDate": "2023-09-01",
-            "highlights": [
-                "Developed GPT-4 powered analytical chatbot",
-                "Implemented LLM tooling for monitoring and observability",
-                "Created innovative prompt engineering solutions"
-            ]
-        }
-    ],
-    "skills": [
-        {
-            "name": "Programming Languages",
-            "keywords": [
-                "Python",
-                "C",
-                "Bash",
-                "SQL (Postgres)",
-                "HTML",
-                "CSS",
-                "MATLAB",
-                "Verilog"
-            ]
-        },
-        {
-            "name": "Frameworks",
-            "keywords": [
-                "Django",
-                "Django Rest Framework",
-                "FastAPI",
-                "Pytorch",
-                "tflite",
-                "Huggingface transformers",
-                "Nvidia NIMS"
-            ]
-        },
-        {
-            "name": "Developer Tools",
-            "keywords": [
-                "Vim",
-                "Docker",
-                "Kubernetes",
-                "Git",
-                "Github Actions",
-                "Linux terminal",
-                "VS Code",
-                "Copilot"
-            ]
-        },
-        {
-            "name": "Cloud Platforms",
-            "keywords": [
-                "GCP Colab enterprise",
-                "Azure",
-                "AWS EC2",
-                "AWS EKS",
-                "Snowflake",
-                "Railway",
-                "AWS Sagemaker"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "fluency": "Professional"
-        }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ragul-kachiappan/",
+        "username": "ragul"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/ragul-kachiappan",
+        "username": "ragul"
+      },
+      {
+        "network": "HackerRank",
+        "url": "https://www.hackerrank.com/rahul_kachiappan",
+        "username": "ragul"
+      }
     ]
+  },
+  "education": [
+    {
+      "institution": "PSG College of Technology",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2017-08-01",
+      "endDate": "2022-05-01",
+      "score": "9.24 CGPA",
+      "location": "Coimbatore, India"
+    },
+    {
+      "institution": "Jawahar Higher Secondary School",
+      "area": "Senior School Certificate (CBSE)",
+      "studyType": "Class XII",
+      "startDate": "2016-06-01",
+      "endDate": "2017-03-01",
+      "score": "90.7%",
+      "location": "Neyveli, India"
+    },
+    {
+      "institution": "Jawahar Higher Secondary School",
+      "area": "Secondary School Certificate (CBSE)",
+      "studyType": "Class X",
+      "startDate": "2014-06-01",
+      "endDate": "2015-03-01",
+      "score": "9.0 CGPA",
+      "location": "Neyveli, India"
+    }
+  ],
+  "work": [
+    {
+      "name": "Techjays",
+      "position": "Software Engineer II",
+      "location": "Coimbatore, India",
+      "startDate": "2024-04-01",
+      "highlights": [
+        "Led enterprise-level software development initiatives, earning recognition for exceptional technical contributions",
+        "Established and led structured mentorship program for junior developers and interns, improving team productivity and reducing onboarding time",
+        "Drove end-to-end project lifecycle excellence across all SDLC phases",
+        "Maintained production systems with 99.9% uptime",
+        "Authored compelling technical proposals and participated in strategic client discussions",
+        "Created comprehensive technical documentation and developed proof-of-concepts and MVPs"
+      ]
+    },
+    {
+      "name": "Techjays",
+      "position": "Software Engineer I",
+      "location": "Coimbatore, India",
+      "startDate": "2023-05-01",
+      "endDate": "2024-03-31",
+      "highlights": [
+        "Backend, MLOps, LLMOps, Generative AI Engineer",
+        "Made open-source contributions to Stanford University's DSPy and FastAPI",
+        "Worked directly with CTO as GenAI consultant",
+        "Mentored new joinees and created internal onboarding mock project",
+        "Skilled in LLMs, Prompt Engineering, RAG and Vector Databases",
+        "Served on interview panel for hiring Senior Engineers and interns",
+        "Contributed to MLOps, NLP tasks for Gamesafe project"
+      ]
+    },
+    {
+      "name": "Techjays",
+      "position": "Python Developer Trainee",
+      "location": "Coimbatore, India",
+      "startDate": "2023-03-01",
+      "endDate": "2023-04-30",
+      "highlights": [
+        "Backend development with Django, Django REST Framework",
+        "Contributed to Whatsapp Business Automated Team Inbox development"
+      ]
+    },
+    {
+      "name": "Techjays",
+      "position": "Python Developer Intern",
+      "location": "Coimbatore, India",
+      "startDate": "2022-12-01",
+      "endDate": "2023-02-28",
+      "highlights": [
+        "Training in Backend development with focus on Django, Rest API"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Arkose Labs",
+      "description": "ML workflow automation project",
+      "startDate": "2024-08-01",
+      "highlights": [
+        "Lead developer collaborating with Data Science team",
+        "AWS infrastructure setup with terraform",
+        "Implemented workflows with Airflow, Athena, Glue and S3",
+        "Web portal deployment through EKS, ECR and ArgoCD"
+      ]
+    },
+    {
+      "name": "Midalloy",
+      "description": "RAG-based welding chatbot",
+      "startDate": "2024-04-01",
+      "endDate": "2024-10-31",
+      "highlights": [
+        "Lead developer for RAG-based QA chatbot",
+        "Azure infrastructure setup and technical discussions",
+        "Team management and stakeholder communication"
+      ]
+    },
+    {
+      "name": "Gamesafe",
+      "description": "Child protection app for online gaming",
+      "startDate": "2023-10-01",
+      "endDate": "2024-04-30",
+      "highlights": [
+        "MLOps/ML engineer for child protection app",
+        "Implemented mobile-compatible image classifiers",
+        "Managed GCP colab enterprise configurations"
+      ]
+    },
+    {
+      "name": "Via Analytics",
+      "description": "Analytical GenAI QA chatbot",
+      "startDate": "2023-09-01",
+      "highlights": [
+        "Developed GPT-4 powered analytical chatbot",
+        "Implemented LLM tooling for monitoring and observability",
+        "Created innovative prompt engineering solutions"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "C",
+        "Bash",
+        "SQL (Postgres)",
+        "HTML",
+        "CSS",
+        "MATLAB",
+        "Verilog"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "Django",
+        "Django Rest Framework",
+        "FastAPI",
+        "Pytorch",
+        "tflite",
+        "Huggingface transformers",
+        "Nvidia NIMS"
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "keywords": [
+        "Vim",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Github Actions",
+        "Linux terminal",
+        "VS Code",
+        "Copilot"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "keywords": [
+        "GCP Colab enterprise",
+        "Azure",
+        "AWS EC2",
+        "AWS EKS",
+        "Snowflake",
+        "Railway",
+        "AWS Sagemaker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ]
 }
