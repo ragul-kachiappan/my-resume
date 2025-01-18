@@ -1,0 +1,193 @@
+{
+    "meta": {
+        "theme": "professional"
+    },
+    "basics": {
+        "name": "Ragul Kachiyappan",
+        "label": "Software Engineer II at techjays | Python | Generative AI | Open Source | Backend Engineering",
+        "email": "rahul.kachiappan@gmail.com",
+        "phone": "+91 7530016269",
+        "summary": "I am a curious Engineer with a wide array of interests. I am now focusing on attaining mastery over Backend Engineering and its related ecosystem. I have proficiency in Backend Engineering, Django, Python ecosystem, Linux ecosystem, AWS, Azure, Generative AI, MLOps and Natural Language Processing. Strong proponent of FOSS principles and enjoy collaboration with open source communities. I have made significant contributions to FastAPI, DSPy from Stanford NLP, Chroma DB, Langchain, Llamaindex and ragas.",
+        "location": {
+            "city": "Chennai",
+            "region": "Tamil Nadu",
+            "countryCode": "IN"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/ragul-kachiappan/",
+                "username": "ragul-kachiappan"
+            },
+            {
+                "network": "GitHub",
+                "url": "https://github.com/ragul-kachiappan",
+                "username": "ragul"
+            },
+            {
+                "network": "HackerRank",
+                "url": "https://www.hackerrank.com/rahul_kachiappan",
+                "username": "ragul"
+            }
+        ]
+    },
+    "education": [
+        {
+            "institution": "PSG College of Technology",
+            "area": "Electronics and Communication Engineering",
+            "studyType": "Bachelor of Engineering",
+            "startDate": "2017-08-01",
+            "endDate": "2022-05-01",
+            "score": "9.24 CGPA",
+            "location": "Coimbatore, India"
+        },
+        {
+            "institution": "Jawahar Higher Secondary School",
+            "area": "Senior School Certificate (CBSE)",
+            "studyType": "Class XII",
+            "startDate": "2016-06-01",
+            "endDate": "2017-03-01",
+            "score": "90.7%",
+            "location": "Neyveli, India"
+        },
+        {
+            "institution": "Jawahar Higher Secondary School",
+            "area": "Secondary School Certificate (CBSE)",
+            "studyType": "Class X",
+            "startDate": "2014-06-01",
+            "endDate": "2015-03-01",
+            "score": "9.0 CGPA",
+            "location": "Neyveli, India"
+        }
+    ],
+    "work": [
+        {
+            "name": "techjays",
+            "position": "Software Engineer II",
+            "location": "Coimbatore, Tamil Nadu, India",
+            "startDate": "2024-04-01",
+            "highlights": [
+                "Led enterprise-level software development initiatives, earning recognition for exceptional technical contributions",
+                "Established and led structured mentorship program for junior developers and interns, improving team productivity and reducing onboarding time",
+                "Drove end-to-end project lifecycle excellence across all SDLC phases",
+                "Maintained production systems with 99.9% uptime",
+                "Authored compelling technical proposals and participated in strategic client discussions",
+                "Created comprehensive technical documentation and developed proof-of-concepts and MVPs"
+            ]
+        },
+        {
+            "name": "techjays",
+            "position": "Software Engineer I",
+            "location": "Coimbatore, Tamil Nadu, India",
+            "startDate": "2023-05-01",
+            "endDate": "2024-03-31",
+            "highlights": [
+                "Built RAG-based Gen AI applications with support for financial data Question Answering",
+                "Devised innovative implementations for RAG and NLP techniques for dynamic API calling with LLMs",
+                "Created pipelines for fine-tuning BERT and RoBERTa Language Models for text classification",
+                "Implemented and deployed TensorFlow Lite-based CNN models for mobile live streams",
+                "Developed robust quantization processes for CNN and fine-tuned BERT models",
+                "Contributed bug fixes and documentation to OSS projects including DSPy, FastAPI, Langchain",
+                "Implemented data cleaning pipelines with NLP-based hybrid search mechanisms"
+            ]
+        },
+        {
+            "name": "techjays",
+            "position": "Python Developer Trainee",
+            "location": "Coimbatore, Tamil Nadu, India",
+            "startDate": "2023-03-01",
+            "endDate": "2023-04-30",
+            "highlights": [
+                "Developed REST APIs for Whatsapp Business API based Shared Team Inbox",
+                "Led research and analysis of Whatapp Business API and third Party resellers",
+                "Implemented optimized queries and computations for analytics dashboard",
+                "Worked on integrations for Webhooks and Templates for Whatsapp Business messages"
+            ]
+        },
+        {
+            "name": "techjays",
+            "position": "Python Developer Intern",
+            "location": "Coimbatore, Tamil Nadu, India",
+            "startDate": "2022-12-01",
+            "endDate": "2023-02-28",
+            "highlights": [
+                "Training in Backend development with focus on Django, Rest API"
+            ]
+        }
+    ],
+    "certificates": [
+        {
+            "name": "AWS Partner: Technical Accredited",
+            "issuer": "Amazon Web Services (AWS)"
+        },
+        {
+            "name": "Natural Language Processing with Classification and Vector Spaces",
+            "issuer": "Coursera"
+        },
+        {
+            "name": "Python for Everybody Specialization",
+            "issuer": "Coursera"
+        },
+        {
+            "name": "Relational Database",
+            "issuer": "FreeCodeCamp"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Cloud & DevOps",
+            "keywords": [
+                "AWS SageMaker",
+                "Amazon EKS",
+                "Amazon Athena",
+                "Azure",
+                "Docker",
+                "Kubernetes"
+            ]
+        },
+        {
+            "name": "Programming Languages",
+            "keywords": [
+                "Python",
+                "SQL",
+                "Bash",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "AI & ML",
+            "keywords": [
+                "Generative AI",
+                "Natural Language Processing",
+                "MLOps",
+                "RAG",
+                "LLMs",
+                "TensorFlow",
+                "BERT",
+                "RoBERTa"
+            ]
+        },
+        {
+            "name": "Frameworks & Tools",
+            "keywords": [
+                "Django",
+                "Django Rest Framework",
+                "FastAPI",
+                "Linux",
+                "Git",
+                "Docker"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Full Professional"
+        },
+        {
+            "language": "Tamil",
+            "fluency": "Native or Bilingual"
+        }
+    ]
+}

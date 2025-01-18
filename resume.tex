@@ -1,0 +1,265 @@
+%-------------------------
+% Resume in Latex
+% Author : Ragul
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+ \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Ragul Kachiyappan} \\ \vspace{1pt}
+    \small Chennai, India \\ \vspace{0.5pt}
+    \small +91 7530016269 $|$ \href{mailto:rahul.kachiappan@gmail.com}{\underline{rahul.kachiappan@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ragul-kachiappan/}{\underline{linkedin.com/in/ragul}} $|$
+    \href{https://github.com/ragul-kachiappan}{\underline{github.com/ragul}}  $|$
+    \href{https://www.hackerrank.com/rahul_kachiappan}{\underline{hackerrank.com/ragul}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {PSG College of Technology}{Coimbatore, India}
+      {Bachelor of Engineering in Electronics and Communication Engineering, CGPA of \textbf{9.24}}{Aug. 2017 -- May 2022}
+      \resumeSubheading
+      {Jawahar Higher Secondary School (CBSE)}{Neyveli, India}
+      {Class XII Senior School Certificate, Percentage of \textbf{90.7}}{Jun. 2016 -- Mar. 2017}
+      \resumeSubheading
+      {Jawahar Higher Secondary School (CBSE)}{Neyveli, India}
+      {Class X Secondary School Certificate, CGPA of \textbf{9.0}}{Jun. 2014 -- Mar. 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Software Engineer II}{Apr. 2024 -- Present}
+      {Techjays}{Coimbatore, India}
+      \resumeItemListStart
+        \resumeItem{ Received an early promotion in recognition of my dedicated efforts, proactive assumption of responsibilities, and active involvement in various projects and company initiatives.}
+        \resumeItem{Lead a MVP effort on a Gen AI, LLM based chatbot for a US based welding alloy products company. Contributing in the capacity of fullstack developer with DevOps responsibilities in Azure and mentoring juniors.}
+        \resumeItem{ Architected solutions with combination of S3, Glue, Athena and Airflow for big data processing tasks.}
+        \resumeItem{ Skilled in Docker, Kubernetes, ECR, EKS techstack.}
+        \resumeItem{ Proficient in IaaC and other DevOps practices.}
+        \resumeItem{ Contributing to MLOps on time-series data analytics in \textbf{Arkose Labs}.}
+        \resumeItem{ \textbf{open-source contributions} to LLM libraries like \textbf{Chromadb}, \textbf{LangChain} \textbf{Llamaindex} and \textbf{Ragas}.}
+        \resumeItem{Making efforts to build a Web Server from scratch.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Software Engineer I}{May. 2023 --  Mar. 2024}
+      {Techjays}{Coimbatore, India}
+      \resumeItemListStart
+        \resumeItem{ Backend, MLOps, LLMOps, Generative AI Engineer.}
+        \resumeItem{ Made substantial \textbf{open-source contributions}, including bug fixes to the \textbf{Stanford University's DSPy} - a NLP library and documentation improvements to \textbf{FastAPI}.}
+        \resumeItem{ Directly working with comany's CTO as a consultant to provide Generative AI, LLMOps expertise and consultation for all GenAI projects within the company.}
+        \resumeItem{ Actively contributing to multiple projects with my AI, Backend expertise. }
+\resumeItem{Mentorship for new joinees and freshers. Created an internal onboarding mock project to showcase the company's workflow.}
+        \resumeItem{ Contributing to MLOps, NLP, LLMOps tasks as an external resource for a company developing an online Parent-Child monitoring app \textbf{Gamesafe}.}
+        \resumeItem{ Skilled in LLMs, Prompt Engineering, Retrival Augmented Generation \textbf{RAG} and Vector Databases.}
+        \resumeItem{Proficient in quantization techniques for deep learning and language models, enabling efficient inference and deployment on production systems and mobile devices.}
+        \resumeItem{ Achieved Individual appreciation from CTO for my innovative work with GPT API, LLMs and prompt engineering. }
+        \resumeItem{ Served as the main contributor for the company's project proposals submitted to the \textbf{Indian Defense's IDEX DISC 11, 12, 13} startup challenges.}
+        \resumeItem{ Accelerated career growth within the company with responsibilities of technical consultant to client and project managers. Also actively exploring Generative AI research work and cutting edge practices for consultation. }
+        \resumeItem{ Serving as part of the interview panel for hiring Senior Backend Engineers, MLOps Engineers and interns.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Python Developer Trainee}{Mar. 2023 -- Apr. 2023}
+      {Techjays}{Coimbatore, India}
+      \resumeItemListStart
+        \resumeItem{ Backend development with main focus on Django, Django REST Framework and Rest API.}
+        \resumeItem{ Contributed to the development of a Whatsapp Business Automated Team Inbox.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Python Developer Intern}{Dec. 2022 -- Feb. 2023}
+      {Techjays}{Coimbatore, India}
+      \resumeItemListStart
+        \resumeItem{Training in Backend development with main focus on Django, Rest API.}
+      \resumeItemListEnd
+
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+ 
+    
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Notable Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+              {\textbf{Arkose Labs} $|$ \emph{Techjays}}{Aug. 2024 -- present}
+              \resumeItemListStart
+                \resumeItem{Serving as developer lead to collaborate with Arkose Labs Data Science team to automate ML workflows.}
+    \resumeItem{Responsibilities include AWS infra setup with terraform, defining workflows with combination Airflow, Athena, Glue and S3, Web portal for dashboards deployed through EKS, ECR and ArgoCD.}
+              \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Midalloy} $|$ \emph{Techjays}}{Apr. 2024 -- Oct. 2024}
+          \resumeItemListStart
+            \resumeItem{A RAG based chatbot focussed on Welding related Question Answering from Product datasheets and Historical customer service conversations. }
+\resumeItem{Serving as the lead developer with responsibilities entailing infrastructure setup in Azure, handling technical discussions with client and other stakeholders, managing Juniors and Interns.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Gamesafe} $|$ \emph{Techjays}}{Oct. 2023 -- Apr. 2024}
+          \resumeItemListStart
+            \resumeItem{An online Child protection app that aims to alert parents in the event of their child being shown extreme, abusive or adult content in live games.}
+\resumeItem{Primarily serving as an MLOps/ML engineer. Actively involved in cutting edge experimentation and research work involving language models for NLP classification, training and deployment of computer vision models to mobile devices and managing GCP colab enterprise configurations for training jobs.}
+\resumeItem{Commended for designing and deploying mobile/edge-compatible image classifier models using TensorFlow Lite. Successfully resolved complex technical challenges to optimize model performance and enable deployment on constrained devices.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Via Analytics} $|$ \emph{Techjays}}{Sep. 2023 -- present}
+          \resumeItemListStart
+            \resumeItem{Analytical GenAI QA chatbot powered by GPT-4 that will provide analytical data insights, visualizations from third party accounting/financial software APIs and documents like CSVs and PDFs.}
+            \resumeItem{Cutting edge problem solving in making LLMs compatible with ad hoc data retrieval from third party APIs for context aware answer generation.}
+            \resumeItem{Serving as Backend and Generative AI engineer. Responsible for API development, LLMOps and AWS resource monitoring. Developed all LLM tooling in house for monitoring, obervability and graph of LLM nodes.}
+            \resumeItem{Developed innovative prompt engineering solutions tackling challenges such as memory, selection of relevant third party API endpoints, interactive plots, predefined answers for FAQs, decision nodes on LLM graphs and so on. My work is on par with world's leading generative AI solutions.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{WACTO} $|$ \emph{Techjays}}{Mar. 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Whatsapp automated shared team inbox which leverages the 
+power of Whatsapp Business API. It provides a cost effective way for businesses to do 
+marketing via Whatsapp Template message to its customers.}
+            \resumeItem{Part of the backend team tasked with developing REST APIs for MVP scope features. Designed and developed robust CRUD features for user management, campaign management for Whatsapp marketing and inhouse Chat inbox with Whatsapp integration.}
+            \resumeItem{Key contributor to the Whatsapp Business API integration, webhook integration for handling incoming messages and status updates from Whatsapp servers to inhouse chat. Implemented a sophisticated methodology for schema mapping in bulk import of contact from excel files.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+    
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C, Bash, SQL (Postgres), HTML, CSS, MATLAB, Verilog.} \\
+     \textbf{Frameworks}{: Django, Django Rest Framework, FastAPI, Pytorch, tflite, Huggingface transformers, Nvidia NIMS} \\
+     \textbf{Developer Tools}{: Vim, Docker, Kubernetes, Markdown, VSCode debugger, Git, Github, Github Actions, postman, Linux terminal, VS Code, Visual Studio, PyCharm, IntelliJ, Copilot.} \\
+     \textbf{Libraries}{: Openai SDK, ChromaDB, pandas, NumPy, Matplotlib, mmcv, tkinter, SQLAlchemy, Pydantic, Mailgun, Chainlit, AWS related SDKs.} \\
+     \textbf{Cloud Platforms}{: GCP Colab enterprise, Azure, AWS EC2, AWS EKS, Snowflake, Railway, AWS Sagemaker.}
+    }}
+ \end{itemize}
+
+
+
+
+%-------------------------------------------
+\end{document}
