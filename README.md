@@ -75,6 +75,8 @@ pre-commit autoupdate
 
 Edit your resume by modifying the `resume.json` file following the [JSON Resume Schema](https://jsonresume.org/schema/).
 
+NOTE: You will have to take care of hosting. I created a gist with their [editor](https://registry.jsonresume.org/editor) and then created this repo to maintain and update my resume. Refer to the Getting Started guide in [JSON Resume](https://jsonresume.org/getting-started)
+
 ## Development Workflow
 
 1. Activate the environment (automatic with direnv):
@@ -121,3 +123,24 @@ This repository includes a GitHub Action that automatically updates a GitHub Gis
    - Update your specified gist with the new content
 
 Note: The gist ID in the workflow file should match your gist's ID. The current configuration uses ID: `da348834c0cc28fa912cf480f1f3a610`
+
+## Rights and Usage
+
+This repository is made public for reference and educational purposes. It demonstrates:
+- JSON Resume implementation
+- GitHub Actions automation
+- Pre-commit hook configuration
+- Development environment setup with direnv and uv
+
+However, all rights are reserved. While you can use this repository as a reference to learn from and understand the implementation:
+- The code, configurations, and content cannot be copied directly
+- You should write your own implementation based on your understanding
+- No part of this repository may be used, modified, or distributed without explicit permission
+
+Feel free to:
+- Study the code structure and patterns
+- Learn from the GitHub Actions setup
+- Understand how the various tools are integrated
+- Use these learnings to create your own implementation
+
+P.S. This README was created in collaboration with Claude (Anthropic's AI assistant), through an iterative process of brainstorming and refinement.
