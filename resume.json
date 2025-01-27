@@ -143,6 +143,7 @@
       "endDate": "2024-04-30",
       "highlights": [
         "MLOps/ML engineer for child protection app",
+        "Implemented end-to-end workflows to finetune classical NLP models, BERT, RoBERTa models for cyberbullying comments",
         "Implemented mobile-compatible image classifiers",
         "Managed GCP colab enterprise configurations"
       ]
