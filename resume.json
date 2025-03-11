@@ -115,6 +115,20 @@
   ],
   "projects": [
     {
+      "name": "Vesuvius Challenge",
+      "description": "https://scrollprize.org/",
+      "startDate": "2025-01-20",
+      "highlights": [
+        "Project Lead & Technical Specialist ",
+        "Leading a specialized team of 8 annotation specialists for the prestigious Vesuvius Challenge, an international scientific initiative to decipher ancient scrolls carbonized by Mount Vesuvius in 79 CE",
+        "Personally selected by project maintainers as primary point of contact for all deliverables based on exceptional technical contributions during initial project phases",
+        "Rapidly mastered complex annotation techniques for CT scan data while simultaneously training three additional specialists",
+        "Played instrumental role from initial project negotiations through scaling to full team deployment",
+        "Leveraged prior experience with MRI data and image restoration to create compelling technical proposals that secured and expanded the project partnership",
+        "Recognized with company MVP award (February 2025) for leadership and technical excellence"
+      ]
+    },
+    {
       "name": "Arkose Labs",
       "description": "ML workflow automation project",
       "startDate": "2024-08-01",
